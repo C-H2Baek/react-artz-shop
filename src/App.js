@@ -1,22 +1,14 @@
-import './App.css';
+import { Carousel } from 'bootstrap';
+import { Container } from 'react-bootstrap';
+import Layout from './Layout/Layout';
+
 
 function App() {
   return (
-
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >         
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Container style={{minHeight:'5vh'}}>
+      </Container>
+    </Layout>
     
   );
 }
