@@ -15,25 +15,25 @@ const Lower = () => {
     <Carousel fade>
       <Carousel.Item>
         <img
-          style={{ height: "300px" }}
+          style={{ height: "400px" }}
           className="d-block w-100"
-          src="https://mblogthumb-phinf.pstatic.net/MjAxOTEwMTFfNjEg/MDAxNTcwNzg1ODM3Nzc0.zxDXm20VlPdQv8GQi9LWOdPwkqoBdiEmf8aBTWTsPF8g.FqMQTiF6ufydkQxrLBgET3kNYAyyKGJTWTyi1qd1-_Ag.PNG.kkson50/sample_images_01.png?type=w800"
+          src="https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          style={{ height: "300px" }}
+          style={{ height: "400px" }}
           className="d-block w-100"
-          src="https://mblogthumb-phinf.pstatic.net/MjAxOTEwMTFfODMg/MDAxNTcwNzg1ODM3NTUz.2m5sz7K4ATO7WZzXYGE-MmUQ1DYUOflq0IaGgitVZEIg.jYZnxxm0E275Jplbrw25aFCFPVXKcmai1zhf8rlYl3Eg.PNG.kkson50/sample_images_02.png?type=w800"
+          src="https://images.pexels.com/photos/3660527/pexels-photo-3660527.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          style={{ height: "300px" }}
+          style={{ height: "400px" }}
           className="d-block w-100"
-          src="https://mblogthumb-phinf.pstatic.net/MjAxOTEwMTFfMjIg/MDAxNTcwNzg1ODM3NTU0.S-ltTb4JaOedIKIRE-mWYcVuZGTBGi8Z8G8NJZtQmrkg.dlyc5gHE3DSF4rvH3fiirLhP7ilKSZuz6t0a0KoWJrYg.PNG.kkson50/sample_images_03.png?type=w800"
+          src="https://images.pexels.com/photos/3183198/pexels-photo-3183198.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
           alt="Third slide"
         />
       </Carousel.Item>
