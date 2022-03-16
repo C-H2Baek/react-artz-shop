@@ -1,16 +1,16 @@
 import react from 'react';
 import { Container } from 'react-bootstrap';
+import Footer from '../Layout/Footer';
 
 const Notice = () => {
   return(
-    <footer>
+    
       <Container>
         <div style={{textAlign:'center'}}>
-        Notice.js
-        
-        </div>
+        <h2>Notice Page</h2>
+        </div><Footer/>
       </Container>
-    </footer>
+    
   )
 }
 

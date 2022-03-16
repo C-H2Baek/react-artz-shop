@@ -1,32 +1,47 @@
 import { Carousel } from 'bootstrap';
 import react from 'react';
-import {Navbar, Nav, Container, Button, ButtonToolbar} from 'react-bootstrap'
+import {Navbar, Nav, Container, Button, ButtonToolbar, InputGroup} from 'react-bootstrap'
 import Form from 'react-bootstrap/Form'
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Placeholder from 'react-bootstrap/Placeholder'
 
 const Header = () => {
   return(
     <header>
-      
-    <Navbar bg="dark" variant="dark" fixed="top" className="justify-content-end">
-        <Navbar.Brand href="/Index"><h1>Artz</h1></Navbar.Brand>
-          <Form.Control type="text" size='lg' htmlSize="30" placeholder="Search Item" />
-        <Nav className="justify-content-end">
-          <Nav.Link href="/Module/Info">Info</Nav.Link>
-          <Nav.Link href="/Module/Account">Account</Nav.Link>
-          <Nav.Link href="/Module/Cart">Cart</Nav.Link>
-        </Nav>
-    </Navbar>
+      <Navbar bg="light" variant="light" fixed="top" className="justify-content-end">
+          <Navbar.Brand href="/"><h1>Artz</h1></Navbar.Brand>
+          
+            <InputGroup className="justify-content-center">
+              <Col xs={8}>
+              <Form.Control type="search" size='lg' htmlSize='10' placeholder="Search Item" />
+              </Col>
+                <Button variant="outline-secondary" id="button-addon2">
+                  <span class="material-icons-outlined">
+                  <span class="material-icons md-24">search</span>
+                  </span>
+                </Button>
+            </InputGroup>  
+          
+          <Nav className="justify-content-end">
+            <Nav.Link href="/Module/Info"><img class="icon" src="https://pics.gmarket.co.kr/pc/single/kr/common/image__header-mypage.svg"/></Nav.Link>
+            <Nav.Link href="/Module/Recent"><img class="icon" src="https://pics.gmarket.co.kr/pc/single/kr/common/image__header-recent.svg"/></Nav.Link>
+            <Nav.Link href="/Module/Cart"><img class="icon" src="https://pics.gmarket.co.kr/pc/single/kr/common/image__header-cart.svg"/></Nav.Link>
+            </Nav>
+      </Navbar>
 
-    <Navbar bg="dark" variant="dark" fixed="bottom" className="justify-content-end">
-        <Nav className="justify-content-end">
-          <Nav.Link href="/Module/Notice">Notice</Nav.Link>
-          <Nav.Link href="/Module/Login">Login</Nav.Link>
-          <Nav.Link href="/Module/SignUp">Sign Up</Nav.Link>
-          <Nav.Link href="/Module/Global">Global</Nav.Link>
-        </Nav>
-    </Navbar>
+      <Navbar bg="dark" variant="dark" fixed="bottom" className="justify-content-end">
+          <Nav className="justify-content-end">
+            <Nav.Link href="/Module/Notice">Notice</Nav.Link>
+            <Nav.Link href="/Module/Login">Login</Nav.Link>
+            <Nav.Link href="/Module/SignUp">Sign Up</Nav.Link>
+            <Nav.Link href="/Module/Global">Global</Nav.Link>
+          </Nav>
+      </Navbar>
     </header>
+    
+    
   )
 }
 

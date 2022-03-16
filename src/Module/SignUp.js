@@ -1,9 +1,10 @@
 import { Component, React } from "react";
 import { Link } from "react-router-dom";
-import "../styles/register.scss";
+import "../Styles/register.scss";
 import $ from "jquery";
-import Modal from "../Modal";
+import Modal from "./Modal";
 import axios from 'axios';
+import Footer from '../Layout/Footer';
 
 class Registers extends Component {
   state = {

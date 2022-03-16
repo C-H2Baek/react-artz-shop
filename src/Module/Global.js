@@ -1,16 +1,16 @@
 import react from 'react';
 import { Container } from 'react-bootstrap';
+import Footer from '../Layout/Footer';
 
 const Global = () => {
   return(
-    <footer>
+    
       <Container>
         <div style={{textAlign:'center'}}>
-        Global.js
-        언어 번역
-        </div>
+        <h2>Global Translate</h2>
+        </div><Footer/>
       </Container>
-    </footer>
+    
   )
 }
 

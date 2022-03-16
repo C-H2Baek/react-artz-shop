@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { Children } from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import App from './App';
+import Browser from './Browser';
+import Header from './Layout/Header';
 import './App.css'
+import Layout from './Layout/Layout';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Browser />
+    <Header />
   </React.StrictMode>,
   document.getElementById('root')
 );

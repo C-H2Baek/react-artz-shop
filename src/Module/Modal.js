@@ -1,5 +1,5 @@
 import React from 'react'
-import './Modal.css'
+import '../Styles/Modal.css'
 
 function Modal({ open, children }){
     return <div className={`Modal ${open? "open": "close"}`}>{children}</div>

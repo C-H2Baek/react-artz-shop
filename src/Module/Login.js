@@ -1,7 +1,9 @@
 import {React,useState}  from "react";
 import {Link} from "react-router-dom";
-import "../styles/login.scss";
+import "../Styles/login.scss";
 import $ from 'jquery'
+import Footer from '../Layout/Footer';
+
 const Login = () => {
   
   const [id, setId] = useState('')
@@ -36,7 +38,7 @@ const Login = () => {
       </Link>
 
       <h1>LOGIN</h1>
-
+      
       <form>
         <div className="int-area">
           <input type="text" name="id" id="id" autoComplete="off" value={id} onChange={handleChange} required />
@@ -62,7 +64,6 @@ const Login = () => {
         </button>
       </Link>
       </div>
-
     </div>
   );
 };

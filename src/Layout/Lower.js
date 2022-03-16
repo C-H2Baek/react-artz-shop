@@ -3,7 +3,7 @@ import CardGroup from 'react-bootstrap/CardGroup'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-const Upper = () => {
+const Lower = () => {
   return(
     <body>
       <div>
@@ -141,4 +141,4 @@ const Upper = () => {
   )
 }
 
-export default Upper;
+export default Lower;
