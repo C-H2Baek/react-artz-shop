@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col'
 const Lower = () => {
   return(
     <body>
-      <div>
+      <div class='cardgroup'>
       {/* <Row xs={3} md={3} className="g-5">
       {Array.from({ length: 9 }).map((_, idx) => (
         <Col>

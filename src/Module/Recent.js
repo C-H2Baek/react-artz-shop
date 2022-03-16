@@ -35,7 +35,8 @@ const Account = () => {
           <ListGroup.Item>Morbi leo risus</ListGroup.Item>
           <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
           <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-        </ListGroup><Footer/>
+        </ListGroup>
+        <Footer/>
       </Container>
   )
 }

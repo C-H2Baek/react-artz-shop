@@ -10,9 +10,9 @@ const Info = () => {
   return(
       <Container>
         <div style={{textAlign:'center'}}>
-        <h2>My Information</h2><br></br>
+        <h2>My Information</h2></div>
 
-        <Form>
+        <Form className="mb-2">
         <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
           <Form.Label column sm="2">
             ID
@@ -23,7 +23,7 @@ const Info = () => {
         </Form.Group>
         <Form.Group as={Row} className="mb-3" controlId="formPlaintextPassword">
           <Form.Label column sm="2">
-            Password
+            PASSWORD
           </Form.Label>
           <Col sm="10">
             <Form.Control type="password" placeholder="Password" />
@@ -70,9 +70,11 @@ const Info = () => {
           </Col>
         </Form.Group>
         </Form>
-        <Button variant="primary">Reset</Button>{' '}
-        <Button variant="secondary">Change</Button>{' '}
-        </div><Footer/>
+        <div className="d-grid gap-2">
+          <Button variant="primary">Reset</Button>{' '}
+          <Button variant="secondary">Change</Button>{' '}
+        </div>
+        <Footer/>
       </Container>
     
   )
