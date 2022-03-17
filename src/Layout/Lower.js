@@ -7,135 +7,120 @@ const Lower = () => {
   return(
     <body>
       <div class='cardgroup'>
-      {/* <Row xs={3} md={3} className="g-5">
-      {Array.from({ length: 9 }).map((_, idx) => (
-        <Col>
-          <Card>
-            <Card.Img variant="top" src="https://mblogthumb-phinf.pstatic.net/MjAxOTEwMTFfNjEg/MDAxNTcwNzg1ODM3Nzc0.zxDXm20VlPdQv8GQi9LWOdPwkqoBdiEmf8aBTWTsPF8g.FqMQTiF6ufydkQxrLBgET3kNYAyyKGJTWTyi1qd1-_Ag.PNG.kkson50/sample_images_01.png?type=w800" />
-            <Card.Body>
-            <Card.Title>Product Name</Card.Title>
-            <Card.Text>
-              Describe
-            </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      ))}
-      </Row> */}
-      <CardGroup>
-        <Card>
-          <Card.Img variant="top" src="https://mblogthumb-phinf.pstatic.net/MjAxOTEwMTFfNjEg/MDAxNTcwNzg1ODM3Nzc0.zxDXm20VlPdQv8GQi9LWOdPwkqoBdiEmf8aBTWTsPF8g.FqMQTiF6ufydkQxrLBgET3kNYAyyKGJTWTyi1qd1-_Ag.PNG.kkson50/sample_images_01.png?type=w800" />
-          <Card.Body>
-            <Card.Title>Product 1</Card.Title>
-            <Card.Text>
-              Describe 1
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Price 1</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src="https://mblogthumb-phinf.pstatic.net/MjAxOTEwMTFfODMg/MDAxNTcwNzg1ODM3NTUz.2m5sz7K4ATO7WZzXYGE-MmUQ1DYUOflq0IaGgitVZEIg.jYZnxxm0E275Jplbrw25aFCFPVXKcmai1zhf8rlYl3Eg.PNG.kkson50/sample_images_02.png?type=w800" />
-          <Card.Body>
-            <Card.Title>Product 2</Card.Title>
-            <Card.Text>
-              Describe 2
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Price 2</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src="https://mblogthumb-phinf.pstatic.net/MjAxOTEwMTFfMjIg/MDAxNTcwNzg1ODM3NTU0.S-ltTb4JaOedIKIRE-mWYcVuZGTBGi8Z8G8NJZtQmrkg.dlyc5gHE3DSF4rvH3fiirLhP7ilKSZuz6t0a0KoWJrYg.PNG.kkson50/sample_images_03.png?type=w800" />
-          <Card.Body>
-            <Card.Title>Product 3</Card.Title>
-            <Card.Text>
-              Describe 3
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Price 3</small>
-          </Card.Footer>
-        </Card>
-      </CardGroup>
-      <CardGroup>
-        <Card>
-          <Card.Img variant="top" src="https://mblogthumb-phinf.pstatic.net/MjAxOTEwMTFfMjYw/MDAxNTcwNzg1ODM3NTY0.wmnNedC0zB5ummw6DSfYJeQEkiqILCyHRArLs7ZkSzgg.FfY1vXaDbLM3EdsvBHDV1EP0FVKo4jamY_yAJfs9gBIg.PNG.kkson50/sample_images_04.png?type=w800" />
-          <Card.Body>
-            <Card.Title>Product 4</Card.Title>
-            <Card.Text>
-              Describe 4
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Price 4</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src="https://mblogthumb-phinf.pstatic.net/MjAxOTEwMTFfMjg3/MDAxNTcwNzg1ODM3NTY1.qqCY6WHNolzYOJqJjNzx-5Z-ehx-Up4tJIbsMXOvLAcg.MroaRE_xMGpj1j-TshpXbgNT4yoFbWauCiyM4ngnBk8g.PNG.kkson50/sample_images_05.png?type=w800" />
-          <Card.Body>
-            <Card.Title>Product 5</Card.Title>
-            <Card.Text>
-              Describe 5
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Price 5</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src="https://mblogthumb-phinf.pstatic.net/MjAxOTEwMTFfMjQ0/MDAxNTcwNzg1ODM3NTY0.N-mCcjnaHkhYyrFs5skfugLRPRWh4KhhZSMWJVHQjbog.KDfVtJcaSIhvBaHNoVuXvejeoAJ50UR081fC0IYC0OIg.PNG.kkson50/sample_images_06.png?type=w800" />
-          <Card.Body>
-            <Card.Title>Product 6</Card.Title>
-            <Card.Text>
-              Describe 6
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Price 6</small>
-          </Card.Footer>
-        </Card>
-      </CardGroup>
-      <CardGroup>
-        <Card>
-          <Card.Img variant="top" src="https://mblogthumb-phinf.pstatic.net/MjAxOTEwMTFfMTAw/MDAxNTcwNzg1ODM3NTY1.uCp9Q26Lqw62aen65yhk-c1grJ6Vg7_8N0uG8CEBCrsg.HPEPk-ivoCIJdDmfcIqXmFYfZL1Yhw5EzLXVZgTGHgYg.PNG.kkson50/sample_images_07.png?type=w800" />
-          <Card.Body>
-            <Card.Title>Product 7</Card.Title>
-            <Card.Text>
-              Describe 7
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Price 7</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src="https://mblogthumb-phinf.pstatic.net/MjAxOTEwMTFfNjIg/MDAxNTcwNzg1ODM3NzA0.cPK5-eVEYoOkIQSwtX9mDluA8eiE_dnUjORZ8jFLHLEg.epNnQuqS4bsRY_T8WIvTEY6PvPRWRVLGFGPyd53lkSog.PNG.kkson50/sample_images_08.png?type=w800" />
-          <Card.Body>
-            <Card.Title>Product 8</Card.Title>
-            <Card.Text>
-              Describe 8
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Price 8</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src="https://mblogthumb-phinf.pstatic.net/MjAxOTEwMTFfMjcy/MDAxNTcwNzg1ODM3NzE0.d7yBdJoyLN2KvLiQho7FTbRDUNzu3AlrnYQ8PF7mPI0g.V4wwCK6yULskBW11qubVymupW-MFCJymnqkvsQH00Wog.PNG.kkson50/sample_images_09.png?type=w800" />
-          <Card.Body>
-            <Card.Title>Product 9</Card.Title>
-            <Card.Text>
-              Describe 9
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Price 9</small>
-          </Card.Footer>
-        </Card>
-      </CardGroup>
+      <article>
+        <div class="cf pa2">
+          <div class="fl w-50 w-25-m w-20-l pa2">
+            <a href="https://geo.itunes.apple.com/us/album/blonde/id1146195596?at=1l3vqFJ&mt=1&app=music" class="db link dim tc">
+              <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22171%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20171%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17f96b182a7%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3Avar(--bs-font-sans-serif)%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17f96b182a7%22%3E%3Crect%20width%3D%22171%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2260.375%22%20y%3D%2295.4%22%3E171x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Frank Ocean Blonde Album Cover" class="w-100 db outline black-10"/>
+              <dl class="mt2 f6 lh-copy">
+                <dt class="clip">Title</dt>
+                <dd class="ml0 black truncate w-100">Blonde</dd>
+                <dt class="clip">Artist</dt>
+                <dd class="ml0 gray truncate w-100">Frank Ocean</dd>
+              </dl>
+            </a>
+          </div>
+          <div class="fl w-50 w-25-m w-20-l pa2">
+            <a href="https://geo.itunes.apple.com/us/album/jeffery/id1146718343?at=1l3vqFJ&mt=1&app=music" class="db link dim tc">
+              <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22171%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20171%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17f96b182a7%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3Avar(--bs-font-sans-serif)%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17f96b182a7%22%3E%3Crect%20width%3D%22171%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2260.375%22%20y%3D%2295.4%22%3E171x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Young Thug - Jeffery Album Cover" class="w-100 db outline black-10"/>
+              <dl class="mt2 f6 lh-copy">
+                <dt class="clip">Title</dt>
+                <dd class="ml0 black truncate w-100 ttu">Jeffery</dd>
+                <dt class="clip">Artist</dt>
+                <dd class="ml0 gray truncate w-100">Young Thug</dd>
+              </dl>
+            </a>
+          </div>
+          <div class="fl w-50 w-25-m w-20-l pa2">
+            <a href="https://geo.itunes.apple.com/us/album/untitled-unmastered./id1089846273?at=1l3vqFJ&mt=1&app=music" class="db link dim tc">
+              <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22171%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20171%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17f96b182a7%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3Avar(--bs-font-sans-serif)%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17f96b182a7%22%3E%3Crect%20width%3D%22171%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2260.375%22%20y%3D%2295.4%22%3E171x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Kendrick Lamar untitled unmastered. Album Cover" class="w-100 db outline black-10"/>
+              <dl class="mt2 f6 lh-copy">
+                <dt class="clip">Title</dt>
+                <dd class="ml0 black truncate w-100">untitled umastered.</dd>
+                <dt class="clip">Artist</dt>
+                <dd class="ml0 gray truncate w-100">Kendrick Lamar</dd>
+              </dl>
+            </a>
+          </div>
+          <div class="fl w-50 w-25-m w-20-l pa2">
+            <a href="https://geo.itunes.apple.com/us/album/99.9/id1092026376?at=1l3vqFJ&mt=1&app=music" class="db link dim tc">
+              <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22171%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20171%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17f96b182a7%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3Avar(--bs-font-sans-serif)%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17f96b182a7%22%3E%3Crect%20width%3D%22171%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2260.375%22%20y%3D%2295.4%22%3E171x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Kaytranada 99%" class="w-100 db outline black-10"/>
+              <dl class="mt2 f6 lh-copy">
+                <dt class="clip">Title</dt>
+                <dd class="ml0 black truncate w-100">99%</dd>
+                <dt class="clip">Artist</dt>
+                <dd class="ml0 gray truncate w-100">Kaytranada</dd>
+              </dl>
+            </a>
+          </div>
+          <div class="fl w-50 w-25-m w-20-l pa2">
+            <a href="https://geo.itunes.apple.com/us/album/aa/id1067924003?at=1l3vqFJ&mt=1&app=music" class="db link dim tc">
+              <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22171%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20171%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17f96b182a7%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3Avar(--bs-font-sans-serif)%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17f96b182a7%22%3E%3Crect%20width%3D%22171%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2260.375%22%20y%3D%2295.4%22%3E171x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Baauer Aa - Album Cover" class="w-100 db outline black-10"/>
+              <dl class="mt2 f6 lh-copy">
+                <dt class="clip">Title</dt>
+                <dd class="ml0 black truncate w-100">Aa</dd>
+                <dt class="clip">Artist</dt>
+                <dd class="ml0 gray truncate w-100">Baauer</dd>
+              </dl>
+            </a>
+          </div>
+          <div class="fl w-50 w-25-m w-20-l pa2">
+            <a href="https://geo.itunes.apple.com/us/album/99-cents/id1054734475?at=1l3vqFJ&mt=1&app=music" class="db link dim tc">
+              <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22171%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20171%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17f96b182a7%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3Avar(--bs-font-sans-serif)%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17f96b182a7%22%3E%3Crect%20width%3D%22171%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2260.375%22%20y%3D%2295.4%22%3E171x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Santigold 99 cents - Album cover" class="w-100 db outline black-10"/>
+              <dl class="mt2 f6 lh-copy">
+                <dt class="clip">Title</dt>
+                <dd class="ml0 black truncate w-100">99 cents</dd>
+                <dt class="clip">Artist</dt>
+                <dd class="ml0 gray truncate w-100">Santigold</dd>
+              </dl>
+            </a>
+          </div>
+          <div class="fl w-50 w-25-m w-20-l pa2">
+            <a href="https://geo.itunes.apple.com/us/album/a-moon-shaped-pool/id1111577743?at=1l3vqFJ&mt=1&app=music" class="db link dim tc">
+              <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22171%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20171%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17f96b182a7%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3Avar(--bs-font-sans-serif)%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17f96b182a7%22%3E%3Crect%20width%3D%22171%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2260.375%22%20y%3D%2295.4%22%3E171x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="A Moon Shaped Pool - Album cover" class="w-100 db outline black-10"/>
+              <dl class="mt2 f6 lh-copy">
+                <dt class="clip">Title</dt>
+                <dd class="ml0 black truncate w-100">A Moon Shaped Pool</dd>
+                <dt class="clip">Artist</dt>
+                <dd class="ml0 gray truncate w-100">Radiohead</dd>
+              </dl>
+            </a>
+          </div>
+          <div class="fl w-50 w-25-m w-20-l pa2">
+            <a href="https://geo.itunes.apple.com/us/album/the-life-of-pablo/id1123231885?at=1l3vqFJ&mt=1&app=music" class="db link dim tc">
+              <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22171%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20171%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17f96b182a7%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3Avar(--bs-font-sans-serif)%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17f96b182a7%22%3E%3Crect%20width%3D%22171%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2260.375%22%20y%3D%2295.4%22%3E171x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="The Life of Pablo - Album Cover" class="w-100 db outline black-10"/>
+              <dl class="mt2 f6 lh-copy">
+                <dt class="clip">Title</dt>
+                <dd class="ml0 black truncate w-100">The Life of Pablo</dd>
+                <dt class="clip">Artist</dt>
+                <dd class="ml0 gray truncate w-100">Kanye West</dd>
+              </dl>
+            </a>
+          </div>
+          <div class="fl w-50 w-25-m w-20-l pa2">
+            <a href="https://geo.itunes.apple.com/us/album/coloring-book/id1113239004?at=1l3vqFJ&mt=1&app=music" class="db link dim tc">
+              <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22171%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20171%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17f96b182a7%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3Avar(--bs-font-sans-serif)%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17f96b182a7%22%3E%3Crect%20width%3D%22171%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2260.375%22%20y%3D%2295.4%22%3E171x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Coloring Book - Album cover" class="w-100 db outline black-10"/>
+              <dl class="mt2 f6 lh-copy">
+                <dt class="clip">Title</dt>
+                <dd class="ml0 black truncate w-100">Coloring Book</dd>
+                <dt class="clip">Artist</dt>
+                <dd class="ml0 gray truncate w-100">Chance the Rapper</dd>
+              </dl>
+            </a>
+          </div>
+          <div class="fl w-50 w-25-m w-20-l pa2">
+            <a href="https://geo.itunes.apple.com/us/album/everybody-looking/id1135576036?at=1l3vqFJ&mt=1&app=music" class="db link dim tc">
+              <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22171%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20171%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17f96b182a7%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3Avar(--bs-font-sans-serif)%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17f96b182a7%22%3E%3Crect%20width%3D%22171%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2260.375%22%20y%3D%2295.4%22%3E171x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Everybody Looking - Album Cover" class="w-100 db outline black-10"/>
+              <dl class="mt2 f6 lh-copy">
+                <dt class="clip">Title</dt>
+                <dd class="ml0 black truncate w-100">Everybody Looking</dd>
+                <dt class="clip">Artist</dt>
+                <dd class="ml0 gray truncate w-100">Gucci Mane</dd>
+              </dl>
+            </a>
+          </div>
+        </div>
+      </article>
       </div>
     </body>
   )

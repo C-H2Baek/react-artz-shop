@@ -4,16 +4,30 @@ import Footer from '../Layout/Footer';
 
 const Notice = () => {
   return(
-    
-      <Container>
-        <div style={{textAlign:'center'}}>
-        <h2>Notice Page</h2>
-
-        <img src="https://t1.daumcdn.net/cfile/tistory/99A1093359B1E6D317" class="img-fluid" alt="공지"></img>
-        </div><Footer/>
-      </Container>
-    
+    <Container>
+      <div style={{textAlign:'center'}}>
+        <article class="cf ph3 ph5-ns pv5">
+          <header class="fn fl-ns w-50-ns pr4-ns">
+            <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
+              On Artz Shopmall
+            </h1>
+            <time class="f6 ttu tracked gray">Sometime before 2022</time>
+          </header>
+            <div class="fn fl-ns w-50-ns">
+              <p class="f5 lh-copy measure">
+                All typography consists of letters. These appear either in the form of a
+                smoothly running sentence or as an assembly of lines, which may even have
+                contrasting shapes. Good typog- raphy begins, and this is no minor
+                matter, with the typeset- ting of a single line of text in a book or a
+                newspaper. Using exactly the same typeface, it is possible to create either
+                a pleasant line, easily read, or an onerous one. Spacing, if it is too wide
+                or too compressed, will spoil almost any typeface.
+              </p>
+            </div>
+        </article>
+      </div>
+      <Footer/>
+    </Container>
   )
 }
-
 export default Notice;

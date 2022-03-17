@@ -11,7 +11,7 @@ header{
 }
 
 body{
-    background-image: url("./Images/background-img.jpg");
+    /* background-image: url("./Images/background-img.jpg"); */
     background-size: auto;
     background-color: rgba( 255, 255, 255, 0.5 );
     font-family: 'Righteous', 'Jua', sans-serif;
@@ -28,7 +28,6 @@ footer{
     width: 100%;
     left:0;
     position: absolute;
-    
 }
 
 
@@ -38,7 +37,7 @@ hh1{
     text-align: center;
 }
 hh2{
-    background-image: url("https://img.freepik.com/free-vector/tropical-leafy-background-vector_53876-144347.jpg?t=st=1647412104~exp=1647412704~hmac=78a31381d9751c3f950468c67e576e6e658788983c6007c1a9aa6e6662342582&w=740");
+    /* background-image: url("https://img.freepik.com/free-vector/tropical-leafy-background-vector_53876-144347.jpg?t=st=1647412104~exp=1647412704~hmac=78a31381d9751c3f950468c67e576e6e658788983c6007c1a9aa6e6662342582&w=740"); */
     border-radius: 10px 100px / 120px;
     border: 5px solid white;
     text-align: center; margin: 0 auto;
@@ -70,9 +69,11 @@ hh4{
     
 }
 hh5{
-    color: white;
+    color: black;
+    font-family: 'Righteous', cursive;
     text-align: center; margin: 0 auto;
     font-size: 20px;
+    border: px solid black;
 }
 
 .icon{

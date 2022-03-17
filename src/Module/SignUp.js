@@ -140,8 +140,8 @@ class Registers extends Component {
     const {id,pw,cpw,names,sex,phone,mail,open, isChecked} = this.state
 
     return (
-      <div className="register-box">
-        <Link to="/Home">
+      <div className="register-box"><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+        <Link to="/">
           <button className="logo">Arzt</button>
         </Link>
         <h1>Sign Up</h1>
@@ -181,7 +181,7 @@ class Registers extends Component {
             <button id="btn" onClick={this.create}>
               CREATE
             </button>
-          </div>
+          </div><br></br><br></br><br></br><br></br><br></br>
         </form>
         <Modal open={open}>
          <div className="Modal-header">What is your gender?</div>

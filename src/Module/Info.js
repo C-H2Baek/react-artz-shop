@@ -10,7 +10,7 @@ const Info = () => {
   return(
       <Container>
         <div style={{textAlign:'center'}}>
-        <h2>My Information</h2></div>
+        <hh4>My Information</hh4></div>
 
         <Form className="mb-2">
         <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">

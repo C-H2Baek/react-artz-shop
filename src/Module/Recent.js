@@ -7,34 +7,25 @@ const Account = () => {
   return(
       <Container>
         <div style={{textAlign:'center'}}>
-        <h2>Recent Views</h2></div>
+        <hh4>Recent Views</hh4></div>
       
         <ListGroup>
-          <ListGroup.Item>Cras justo odio</ListGroup.Item>
-          <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-          <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-          <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-          <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-          <ListGroup.Item>Cras justo odio</ListGroup.Item>
-          <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-          <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-          <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-          <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-          <ListGroup.Item>Cras justo odio</ListGroup.Item>
-          <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-          <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-          <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-          <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-          <ListGroup.Item>Cras justo odio</ListGroup.Item>
-          <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-          <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-          <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-          <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-          <ListGroup.Item>Cras justo odio</ListGroup.Item>
-          <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-          <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-          <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-          <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+          <ListGroup.Item>Item 1</ListGroup.Item>
+          <ListGroup.Item>Item 2</ListGroup.Item>
+          <ListGroup.Item>Item 3</ListGroup.Item>
+          <ListGroup.Item>Item 4</ListGroup.Item>
+          <ListGroup.Item>Item 5</ListGroup.Item>
+          <ListGroup.Item>Item 6</ListGroup.Item>
+          <ListGroup.Item>Item 7</ListGroup.Item>
+          <ListGroup.Item>Item 8</ListGroup.Item>
+          <ListGroup.Item>Item 9</ListGroup.Item>
+          <ListGroup.Item>Item 10</ListGroup.Item>
+          <ListGroup.Item>Item 11</ListGroup.Item>
+          <ListGroup.Item>Item 12</ListGroup.Item>
+          <ListGroup.Item>Item 13</ListGroup.Item>
+          <ListGroup.Item>Item 14</ListGroup.Item>
+          <ListGroup.Item>Item 15</ListGroup.Item>
+          
         </ListGroup>
         <Footer/>
       </Container>

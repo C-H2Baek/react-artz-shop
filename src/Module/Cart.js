@@ -3,132 +3,75 @@ import { Container } from 'react-bootstrap';
 import ListGroup from 'react-bootstrap/ListGroup'
 import Footer from '../Layout/Footer';
 import Table from 'react-bootstrap/Table';
+import Pagination from 'react-bootstrap/Pagination'
+
+let active = 2;
+let items = [];
+for (let number = 1; number <= 5; number++) {
+  items.push(
+    <Pagination.Item key={number} active={number === active}>
+      {number}
+    </Pagination.Item>,
+  );
+}
+
+
 const Cart = () => {
   return(
     
       <Container>
         <div style={{textAlign:'center'}}>
-        <h2>Cart List</h2></div>
+        <hh4>Cart List</hh4></div>
       
-        <Table striped bordered hover variant='light'>
-          <thead>
-            <tr class='tb'>
-              <th>주문 번호</th>
-              <th>구매 날짜</th>
-              <th>주문 품목</th>
-              <th>주문 수량</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>7</td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>8</td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>9</td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>10</td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>11</td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>12</td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </Table>
-
-        <Table responsive>
-  <thead>
-    <tr>
-      <th>#</th>
-      {Array.from({ length: 3 }).map((_, index) => (
-        <th key={index}>Table heading</th>
-      ))}
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      {Array.from({ length: 3 }).map((_, index) => (
-        <td key={index}>Table cell {index}</td>
-      ))}
-    </tr>
-    <tr>
-      <td>2</td>
-      {Array.from({ length: 3 }).map((_, index) => (
-        <td key={index}>Table cell {index}</td>
-      ))}
-    </tr>
-    <tr>
-      <td>3</td>
-      {Array.from({ length: 3 }).map((_, index) => (
-        <td key={index}>Table cell {index}</td>
-      ))}
-    </tr>
-  </tbody>
-</Table>
-
+        <div class="pa4">
+          <div class="overflow-auto">
+            <table class="f6 w-100 mw8 center" cellspacing="0">
+              <thead>
+                <tr class="stripe-dark">
+                  <th class="fw6 tl pa3 bg-white">Order No</th>
+                  <th class="fw6 tl pa3 bg-white">Odder Time</th>
+                  <th class="fw6 tl pa3 bg-white">Item Name</th>
+                  <th class="fw6 tl pa3 bg-white">Status</th>
+                </tr>
+              </thead>
+              <tbody class="lh-copy">
+                <tr class="stripe-dark">
+                  <td class="pa3">1</td>
+                  <td class="pa3">220317151515</td>
+                  <td class="pa3">hassan@companywithalongdomain.co</td>
+                  <td class="pa3">14419232532474</td>
+                </tr>
+                <tr class="stripe-dark">
+                  <td class="pa3">2</td>
+                  <td class="pa3">220317151525</td>
+                  <td class="pa3">taral@companywithalongdomain.co</td>
+                  <td class="pa3">72326219423551</td>
+                </tr>
+                <tr class="stripe-dark">
+                  <td class="pa3">3</td>
+                  <td class="pa3">220317151535</td>
+                  <td class="pa3">ty@companywithalongdomain.co</td>
+                  <td class="pa3">92325170324444</td>
+                </tr>
+                <tr class="stripe-dark">
+                  <td class="pa3">4</td>
+                  <td class="pa3">220317151545</td>
+                  <td class="pa3">oliverg@companywithalongdomain.co</td>
+                  <td class="pa3">71165170352909</td>
+                </tr>
+                <tr class="stripe-dark">
+                  <td class="pa3">5</td>
+                  <td class="pa3">220317151555</td>
+                  <td class="pa3">dean@companywithalongdomain.co</td>
+                  <td class="pa3">71865178111909</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div style={{textAlign:'center'}}><Pagination size="sm">{items}</Pagination></div>
         <Footer/>
       </Container>
-    
   )
 }
 

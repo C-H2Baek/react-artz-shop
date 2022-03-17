@@ -4,14 +4,24 @@ import Footer from '../Layout/Footer';
 
 const Global = () => {
   return(
-    
-      <Container>
-        <div style={{textAlign:'center'}}>
-        <h2>Global Translate</h2>
-
-        <img src="https://activeloc.com/wp-content/uploads/2021/03/google_translate_main-1280x720-1-1024x576.jpg" class="img-fluid" alt="번역"></img>
-        </div><Footer/>
-      </Container>
+    <Container>
+      <div style={{textAlign:'center'}}>
+        <article class="cf ph3 ph5-ns pv5">
+          <header class="fn fl-ns w-50-ns pr4-ns">
+            <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
+              Global trenslation
+            </h1>
+            <time class="f6 ttu tracked gray">Sometime before 2022</time>
+          </header>
+            <div class="fn fl-ns w-50-ns">
+              <p class="f5 lh-copy measure">
+                Adding Back Functions.
+              </p>
+            </div>
+        </article>
+      </div>
+      <Footer/>
+    </Container>
     
   )
 }

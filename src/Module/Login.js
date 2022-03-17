@@ -33,7 +33,7 @@ const Login = () => {
   return (
     <div className="login-box">
 
-      <Link to="/Home">
+      <Link to="/">
         <button className="logo">Arzt</button>
       </Link>
 
