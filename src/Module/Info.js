@@ -8,10 +8,11 @@ import Footer from '../Layout/Footer';
 
 const Info = () => {
   return(
-      <Container>
-        <div style={{textAlign:'center'}}>
-        <h4>My Information</h4></div>
 
+      <Container>
+        <div className="title">
+        My Information</div>
+        
         <main className="pa4 black-80">
           <form className="measure center">
             <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
@@ -51,7 +52,7 @@ const Info = () => {
         </div>
         <Footer/>
       </Container>
-    
+      
   )
 }
 

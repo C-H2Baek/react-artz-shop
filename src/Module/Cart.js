@@ -20,8 +20,8 @@ const Cart = () => {
   return(
     
       <Container>
-        <div style={{textAlign:'center'}}>
-        <h4>Cart List</h4></div>
+        <div className="title">
+        Cart List</div>
       
         <div className="pa4">
           <div className="overflow-auto">

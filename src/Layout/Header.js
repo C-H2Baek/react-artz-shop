@@ -13,9 +13,6 @@ const Header = () => {
               <Form.Control type="search" size='lg' htmlSize='10' placeholder="Search Item" />
               </Col>
                 <Button variant="outline-secondary" id="button-addon2">
-                  {/* <span class="material-icons-outlined">
-                  <span class="material-icons md-24">search</span>
-                  </span> */}
                   Search
                 </Button>
             </InputGroup>  

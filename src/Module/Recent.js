@@ -17,8 +17,8 @@ for (let number = 1; number <= 5; number++) {
 const Account = () => {
   return(
       <Container>
-        <div style={{textAlign:'center'}}>
-        <h4>Recent Views</h4></div>
+        <div className="title" style={{textAlign:'center'}}>
+        Recent Views</div>
       
         <ListGroup>
           <ListGroup.Item>Item 1</ListGroup.Item>
