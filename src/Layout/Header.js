@@ -1,11 +1,6 @@
-import { Carousel } from 'bootstrap';
-import react from 'react';
 import {Navbar, Nav, Container, Button, ButtonToolbar, InputGroup} from 'react-bootstrap'
 import Form from 'react-bootstrap/Form'
-import { NavLink, Link } from "react-router-dom";
-import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Placeholder from 'react-bootstrap/Placeholder'
 
 const Header = () => {
   return(
@@ -18,16 +13,17 @@ const Header = () => {
               <Form.Control type="search" size='lg' htmlSize='10' placeholder="Search Item" />
               </Col>
                 <Button variant="outline-secondary" id="button-addon2">
-                  <span class="material-icons-outlined">
+                  {/* <span class="material-icons-outlined">
                   <span class="material-icons md-24">search</span>
-                  </span>
+                  </span> */}
+                  Search
                 </Button>
             </InputGroup>  
           
           <Nav className="justify-content-end">
-            <Nav.Link href="/Module/Info"><img class="icon" src="https://pics.gmarket.co.kr/pc/single/kr/common/image__header-mypage.svg"/></Nav.Link>
-            <Nav.Link href="/Module/Recent"><img class="icon" src="https://pics.gmarket.co.kr/pc/single/kr/common/image__header-recent.svg"/></Nav.Link>
-            <Nav.Link href="/Module/Cart"><img class="icon" src="https://pics.gmarket.co.kr/pc/single/kr/common/image__header-cart.svg"/></Nav.Link>
+            <Nav.Link href="/Module/Info"><img className="icon" title='MY Information' src="https://pics.gmarket.co.kr/pc/single/kr/common/image__header-mypage.svg"/></Nav.Link>
+            <Nav.Link href="/Module/Recent"><img className="icon" title='Recent Item' src="https://pics.gmarket.co.kr/pc/single/kr/common/image__header-recent.svg"/></Nav.Link>
+            <Nav.Link href="/Module/Cart"><img className="icon" title='Cart' src="https://pics.gmarket.co.kr/pc/single/kr/common/image__header-cart.svg"/></Nav.Link>
             </Nav>
       </Navbar>
 

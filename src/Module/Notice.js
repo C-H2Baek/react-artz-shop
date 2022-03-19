@@ -6,15 +6,15 @@ const Notice = () => {
   return(
     <Container>
       <div style={{textAlign:'center'}}>
-        <article class="cf ph3 ph5-ns pv5">
-          <header class="fn fl-ns w-50-ns pr4-ns">
-            <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
+        <article className="cf ph3 ph5-ns pv5">
+          <header className="fn fl-ns w-50-ns pr4-ns">
+            <h1 className="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
               On Artz Shopmall
             </h1>
-            <time class="f6 ttu tracked gray">Sometime before 2022</time>
+            <time className="f6 ttu tracked gray">Sometime before 2022</time>
           </header>
-            <div class="fn fl-ns w-50-ns">
-              <p class="f5 lh-copy measure">
+            <div className="fn fl-ns w-50-ns">
+              <p className="f5 lh-copy measure">
                 All typography consists of letters. These appear either in the form of a
                 smoothly running sentence or as an assembly of lines, which may even have
                 contrasting shapes. Good typog- raphy begins, and this is no minor

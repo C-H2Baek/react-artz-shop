@@ -21,55 +21,55 @@ const Cart = () => {
     
       <Container>
         <div style={{textAlign:'center'}}>
-        <hh4>Cart List</hh4></div>
+        <h4>Cart List</h4></div>
       
-        <div class="pa4">
-          <div class="overflow-auto">
-            <table class="f6 w-100 mw8 center" cellspacing="0">
+        <div className="pa4">
+          <div className="overflow-auto">
+            <table className="f6 w-100 mw8 center" cellSpacing="0">
               <thead>
-                <tr class="stripe-dark">
-                  <th class="fw6 tl pa3 bg-white">Order No</th>
-                  <th class="fw6 tl pa3 bg-white">Odder Time</th>
-                  <th class="fw6 tl pa3 bg-white">Item Name</th>
-                  <th class="fw6 tl pa3 bg-white">Status</th>
+                <tr className="stripe-dark">
+                  <th className="fw6 tl pa3 bg-white">Order No</th>
+                  <th className="fw6 tl pa3 bg-white">Order Time</th>
+                  <th className="fw6 tl pa3 bg-white">Item Name</th>
+                  <th className="fw6 tl pa3 bg-white">Status</th>
                 </tr>
               </thead>
-              <tbody class="lh-copy">
-                <tr class="stripe-dark">
-                  <td class="pa3">1</td>
-                  <td class="pa3">220317151515</td>
-                  <td class="pa3">hassan@companywithalongdomain.co</td>
-                  <td class="pa3">14419232532474</td>
+              <tbody className="lh-copy">
+                <tr className="stripe-dark">
+                  <td className="pa3">1</td>
+                  <td className="pa3">220317151515</td>
+                  <td className="pa3">hassan@companywithalongdomain.co</td>
+                  <td className="pa3">14419232532474</td>
                 </tr>
-                <tr class="stripe-dark">
-                  <td class="pa3">2</td>
-                  <td class="pa3">220317151525</td>
-                  <td class="pa3">taral@companywithalongdomain.co</td>
-                  <td class="pa3">72326219423551</td>
+                <tr className="stripe-dark">
+                  <td className="pa3">2</td>
+                  <td className="pa3">220317151525</td>
+                  <td className="pa3">taral@companywithalongdomain.co</td>
+                  <td className="pa3">72326219423551</td>
                 </tr>
-                <tr class="stripe-dark">
-                  <td class="pa3">3</td>
-                  <td class="pa3">220317151535</td>
-                  <td class="pa3">ty@companywithalongdomain.co</td>
-                  <td class="pa3">92325170324444</td>
+                <tr className="stripe-dark">
+                  <td className="pa3">3</td>
+                  <td className="pa3">220317151535</td>
+                  <td className="pa3">ty@companywithalongdomain.co</td>
+                  <td className="pa3">92325170324444</td>
                 </tr>
-                <tr class="stripe-dark">
-                  <td class="pa3">4</td>
-                  <td class="pa3">220317151545</td>
-                  <td class="pa3">oliverg@companywithalongdomain.co</td>
-                  <td class="pa3">71165170352909</td>
+                <tr className="stripe-dark">
+                  <td className="pa3">4</td>
+                  <td className="pa3">220317151545</td>
+                  <td className="pa3">oliverg@companywithalongdomain.co</td>
+                  <td className="pa3">71165170352909</td>
                 </tr>
-                <tr class="stripe-dark">
-                  <td class="pa3">5</td>
-                  <td class="pa3">220317151555</td>
-                  <td class="pa3">dean@companywithalongdomain.co</td>
-                  <td class="pa3">71865178111909</td>
+                <tr className="stripe-dark">
+                  <td className="pa3">5</td>
+                  <td className="pa3">220317151555</td>
+                  <td className="pa3">dean@companywithalongdomain.co</td>
+                  <td className="pa3">71865178111909</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
-        <div style={{textAlign:'center'}}><Pagination size="sm">{items}</Pagination></div>
+        <Pagination size="sm">{items}</Pagination>
         <Footer/>
       </Container>
   )

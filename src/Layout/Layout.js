@@ -10,10 +10,10 @@ const Layout = ({children}) => {
   return (
     <>
       <Header />
-      <div style={{textAlign:'center'}}><hh4>Event Slider</hh4></div>
+      <div style={{textAlign:'center'}}><h4>Event Slider</h4></div>
       <Upper />
-      {children}<br></br><br></br>
-      <div style={{textAlign:'center'}}><hh4>Product List</hh4></div>
+      {children}<br></br><br></br><br></br>
+      <div style={{textAlign:'center'}}><h4>Product List</h4></div>
       <Lower />
       <Footer />
     </>

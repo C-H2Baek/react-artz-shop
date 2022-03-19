@@ -2,12 +2,23 @@ import react from 'react';
 import { Container } from 'react-bootstrap';
 import ListGroup from 'react-bootstrap/ListGroup'
 import Footer from '../Layout/Footer';
+import Pagination from 'react-bootstrap/Pagination'
+
+let active = 2;
+let items = [];
+for (let number = 1; number <= 5; number++) {
+  items.push(
+    <Pagination.Item key={number} active={number === active}>
+      {number}
+    </Pagination.Item>,
+  );
+}
 
 const Account = () => {
   return(
       <Container>
         <div style={{textAlign:'center'}}>
-        <hh4>Recent Views</hh4></div>
+        <h4>Recent Views</h4></div>
       
         <ListGroup>
           <ListGroup.Item>Item 1</ListGroup.Item>
@@ -27,6 +38,7 @@ const Account = () => {
           <ListGroup.Item>Item 15</ListGroup.Item>
           
         </ListGroup>
+        <Pagination size="sm">{items}</Pagination>
         <Footer/>
       </Container>
   )

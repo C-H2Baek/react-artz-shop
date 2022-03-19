@@ -78,7 +78,6 @@ hh5{
 
 .icon{
     /* border: 1px solid; */
-
 }
 .img-fluid{
     border-radius: 30px;
@@ -104,11 +103,29 @@ hh5{
 .tb{
     text-align: center;
 }
+.pagination {
+    justify-content: center;
+}
+
+.pagination > li > a {
+    float: none;
+}
+
+.d-grid{
+    max-width: 500px;
+}
+.pa4{
+    
+    min-width: 400px;
+}
+.ph3{
+    text-align: center;
+    min-width: 400px;
+}
 h1{
     font-family: 'Pacifico', cursive;
     text-align: center;
 }
-
 h2{
     background-image: url("https://img.freepik.com/free-vector/tropical-leafy-background-vector_53876-144347.jpg?t=st=1647412104~exp=1647412704~hmac=78a31381d9751c3f950468c67e576e6e658788983c6007c1a9aa6e6662342582&w=740");
     border-radius: 10px 100px / 120px;
