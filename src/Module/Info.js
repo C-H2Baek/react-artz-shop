@@ -3,26 +3,8 @@ import DaumPostcode from 'react-daum-postcode';
 import Footer from '../Layout/Footer';
 import Address from './Address';
 
-
-
-
 const Info = () => {
-  const handleComplete = (data) => {
-    let fullAddress = data.address;
-    let extraAddress = '';
 
-    if (data.addressType === 'R') {
-      if (data.bname !== '') {
-        extraAddress += data.bname;
-      }
-      if (data.buildingName !== '') {
-        extraAddress += (extraAddress !== '' ? `, ${data.buildingName}` : data.buildingName);
-      }
-      fullAddress += (extraAddress !== '' ? ` (${extraAddress})` : '');
-    }
-
-    console.log(fullAddress);  // e.g. '서울 성동구 왕십리로2길 20 (성수동1가)'
-  }
   return (
 
     <Container>
@@ -56,22 +38,22 @@ const Info = () => {
               <label className="db fw6 lh-copy f6" htmlFor="email">이메일</label>
               <input className="pa2 input-reset ba bg-transparent w-100 measure" type="text" name="email" id="email" />
             </div>
-            
+            <input type='reset' className='reset'></input>
             <div className="mv3">
               <label className="db fw6 lh-copy f6" htmlFor="address">주소</label>
-              {/* <input className="pa2 input-reset ba bg-transparent w-100 measure" type="text" name="address" id="address" /> */}
             <Address/>
             </div>
           </fieldset>
+          <div className="ph3">
+            <a className="f6 link dim ph3 pv2 mb2 dib white bg-light-purple" type='reset' href="#0">Reset</a>
+          </div>
+          <div className="ph3">
+            <a className="f6 link dim ph3 pv2 mb2 dib white bg-dark-green" href="#0">Change</a>
+          </div>
         </form>
       </main>
 
-      <div className="ph3">
-        <a className="f6 link dim ph3 pv2 mb2 dib white bg-light-purple" href="#0">Reset</a>
-      </div>
-      <div className="ph3">
-        <a className="f6 link dim ph3 pv2 mb2 dib white bg-dark-green" href="#0">Change</a>
-      </div>
+      
       <Footer />
     </Container>
 
