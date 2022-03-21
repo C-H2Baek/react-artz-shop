@@ -74,6 +74,10 @@ footer {
   text-align: center;
   min-width: 400px;
 }
+.dtc {
+  border: 5px solid black;
+}
+
 h1 {
   font-family: "Pacifico", cursive;
   text-align: center;
@@ -111,8 +115,7 @@ h4 {
 }
 
 .title {
-  padding: 50px;
-  background-color: rgba(55, 55, 55, 0.3);
+  padding: 80px;
   background-size: auto;
   width: 100%;
   text-align: center;
@@ -120,10 +123,15 @@ h4 {
   left: 0;
   font-size: 30px;
   position: relative;
-  background-image: url("https://img.freepik.com/free-vector/spring-garden-grass-and-flowers-border-cartoon-vector-flower-background-green-elements-objects_176516-1184.jpg?w=1060");
+  /* background-image: url("./Images/background-img.jpg"); */
   z-index: 10;
 }
+.category {
+  background: black;
+  color: white;
 
+  z-index: 15;
+}
 .carousel-item {
   /* min-width: 500px; */
 }
@@ -142,6 +150,10 @@ h4 {
     url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"),
     url(https://example.com/MaterialIcons-Regular.woff) format("woff"),
     url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
 }
 
 .material-icons {

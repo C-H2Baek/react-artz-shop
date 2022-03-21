@@ -6,11 +6,11 @@ import Footer from './Footer';
 import Browser from '../Browser';
 
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <div className='title'>Event Slider</div>
+      <div className='title'>Category</div>
       <Upper />
       {children}<br></br><br></br><br></br>
       <div className='title'>Product List</div>

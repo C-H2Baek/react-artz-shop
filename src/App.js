@@ -5,10 +5,10 @@ import Layout from './Layout/Layout';
 function App() {
   return (
     <Layout>
-      <Container style={{minHeight:'25vh'}}>
+      <Container style={{ minHeight: '25vh' }}>
       </Container>
     </Layout>
-    
+
   );
 }
 

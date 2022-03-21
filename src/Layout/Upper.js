@@ -2,10 +2,10 @@ import ListGroup from 'react-bootstrap/ListGroup'
 import { Carousel } from "react-bootstrap";
 
 const Upper = () => {
-  return(
-  
-      <div>
-      
+  return (
+
+    <div className='cardgroup'>
+      Event Slider
       <Carousel fade variant="dark">
         <Carousel.Item>
           <img
@@ -13,7 +13,6 @@ const Upper = () => {
             className="d-block w-100"
             src="https://cdn.pixabay.com/photo/2021/03/16/21/46/tea-6101059_960_720.jpg"
             alt="First slide"
-            
           />
           <Carousel.Caption>
             <h3>First slide label</h3>
@@ -42,8 +41,8 @@ const Upper = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      </div>
-  
+    </div>
+
   )
 }
 

@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import Router from './Router.js'
 
-function Browser(){
+function Browser() {
     return (
         <BrowserRouter>
             <Router></Router>

@@ -5,3 +5,5 @@ export { default as Notice } from './Notice';
 export { default as Login } from './Login';
 export { default as SignUp } from './SignUp';
 export { default as Global } from './Global';
+export { default as Product } from './Product';
+export { default as Address } from './Address';
