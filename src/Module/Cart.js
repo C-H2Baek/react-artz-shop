@@ -1,8 +1,5 @@
-import react from 'react';
 import { Container } from 'react-bootstrap';
-import ListGroup from 'react-bootstrap/ListGroup'
 import Footer from '../Layout/Footer';
-import Table from 'react-bootstrap/Table';
 import Pagination from 'react-bootstrap/Pagination'
 
 let active = 1;
@@ -26,11 +23,11 @@ const Cart = () => {
           <table className="f6 w-100 mw9 center" cellSpacing="0">
             <thead>
               <tr className="stripe-dark">
-                <th className="fw6 tl pa3 bg-green">Item No</th>
-                <th className="fw6 tl pa3 bg-green">Category</th>
-                <th className="fw6 tl pa3 bg-green">Item Name</th>
-                <th className="fw6 tl pa3 bg-green">Quanity</th>
-                <th className="fw6 tl pa3 bg-green">Price</th>
+                <th className="fw6 tl pa3 bg-white">Item No</th>
+                <th className="fw6 tl pa3 bg-white">Category</th>
+                <th className="fw6 tl pa3 bg-white">Item Name</th>
+                <th className="fw6 tl pa3 bg-white">Quanity</th>
+                <th className="fw6 tl pa3 bg-white">Price</th>
               </tr>
             </thead>
             <tbody className="lh-copy">

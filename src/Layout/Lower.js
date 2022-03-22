@@ -1,7 +1,3 @@
-import Card from 'react-bootstrap/Card'
-import CardGroup from 'react-bootstrap/CardGroup'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 
 const Lower = () => {
   return (

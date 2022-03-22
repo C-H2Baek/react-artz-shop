@@ -3,13 +3,13 @@ import Header from './Header';
 import Upper from './Upper';
 import Lower from './Lower';
 import Footer from './Footer';
-import Browser from '../Browser';
-
+import Video from './Video';
 
 const Layout = ({ children }) => {
   return (
     <>
       <Header />
+      <Video />
       <div className='title'>Category</div>
       <Upper />
       {children}<br></br><br></br><br></br>

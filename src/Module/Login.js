@@ -2,7 +2,6 @@ import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/login.scss";
 import $ from 'jquery'
-import Footer from '../Layout/Footer';
 
 const Login = () => {
 

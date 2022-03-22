@@ -4,7 +4,6 @@ import "../Styles/register.scss";
 import $ from "jquery";
 import Modal from "./Modal";
 import axios from 'axios';
-import Footer from '../Layout/Footer';
 
 class Registers extends Component {
   state = {

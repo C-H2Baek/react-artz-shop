@@ -64,7 +64,7 @@ const Header = () => {
           <Nav.Link href="/Module/Global">Global</Nav.Link>
         </Nav>
       </Navbar>
-
+    
     </header>
 
   )
