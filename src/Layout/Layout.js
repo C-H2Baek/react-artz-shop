@@ -10,9 +10,9 @@ const Layout = ({ children }) => {
     <>
       <Header />
       <Video />
-      <div className='title'>Category</div>
+      <div className='title'></div>
       <Upper />
-      {children}<br></br><br></br><br></br>
+      {children}
       <div className='title'>Product List</div>
       <Lower />
       <Footer />

@@ -1,4 +1,4 @@
-import react from 'react';
+import React, { Component } from 'react';
 import { Container } from 'react-bootstrap';
 import Footer from '../Layout/Footer';
 
@@ -22,6 +22,7 @@ const Global = () => {
           </div>
         </article>
       </div>
+      
       <Footer />
     </Container>
 

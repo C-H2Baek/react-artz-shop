@@ -2,7 +2,7 @@ import './App.css';
 import React, { Component } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import NotFound from './Module/NotFound';
-import { Info, Recent, Cart, Notice, Login, SignUp, Global, Product } from './Module/';
+import { Info, Recent, Cart, Notice, Login, SignUp, Global, Product, Writer } from './Module/';
 import { Action1, Action2, Action3, Action4, Action5, Action6 } from './Pages/';
 import Layout from './Layout/Layout';
 
@@ -20,6 +20,7 @@ class App extends Component {
           <Route exact path="/Module/SignUp" element={<SignUp />} />
           <Route exact path="/Module/Global" element={<Global />} />
           <Route exact path="/Module/Product" element={<Product />} />
+          <Route exact path="/Module/Writer" element={<Writer />} />
           <Route exact path="/Action1" element={<Action1 />} />
           <Route exact path="/Action2" element={<Action2 />} />
           <Route exact path="/Action3" element={<Action3 />} />

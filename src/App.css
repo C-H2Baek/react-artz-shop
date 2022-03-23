@@ -44,6 +44,7 @@ footer {
 }
 .mb-3 {
   /* background-color: rgba(55, 55, 55, .4); */
+
 }
 .d-grid {
   max-width: 800px;
@@ -73,6 +74,10 @@ footer {
 .ph3 {
   text-align: center;
   min-width: 400px;
+}
+.Btn-right {
+  margin-top: 20px;
+  text-align: end;
 }
 
 h1 {
@@ -141,7 +146,7 @@ h4 {
   /* margin-top: 100px; */
 }
 
-.mw9{
+.mw9 {
   width: 300px;
 }
 
@@ -154,10 +159,6 @@ h4 {
     url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"),
     url(https://example.com/MaterialIcons-Regular.woff) format("woff"),
     url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
-}
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
 }
 
 .material-icons {
@@ -215,8 +216,8 @@ h4 {
   color: rgba(255, 255, 255, 0.3);
 }
 
-@media (min-width: 768px){
-.row-cols-md-3 > *{
-width:50%;
+@media (min-width: 768px) {
+  .row-cols-md-3 > * {
+    width: 50%;
   }
 }
