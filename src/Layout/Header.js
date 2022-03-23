@@ -192,17 +192,7 @@ const Header = () => {
                                         </SplitButton>
 
                                     </div>
-
-                                    {/* <NavDropdown.Divider />
-                  <NavDropdown.Item href="/Action1">Category link 1</NavDropdown.Item>
-                  <NavDropdown.Item href="/Action2">Category link 2</NavDropdown.Item>
-                  <NavDropdown.Item href="/Action3">Category link 3</NavDropdown.Item>
-                  <NavDropdown.Item href="/Action4">Category link 4</NavDropdown.Item>
-                  <NavDropdown.Item href="/Action5">Category link 5</NavDropdown.Item>
-                  <NavDropdown.Item href="/Action6">Category link 6</NavDropdown.Item>
-                  <NavDropdown.Divider /> */
-                                    }
-
+                        
                                 </NavDropdown>
                             </Nav>
                         </Navbar.Collapse>
